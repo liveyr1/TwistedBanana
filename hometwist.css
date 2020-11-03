@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/*
+   Author: Jeff Scott
+   Date: 2Nov2020
+
+*/
+
+/*  Base layout used by mobile devices.
+	Applies to larger devices unless superceded.*/
+
+html {
+	height: 100%;
+	font-size: 12px;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+nav img {
+	width: 40%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 8%;
+}
+article {
+	width: 100%;
+	float: left;
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+a:link {
+  color: orange;
+}
+
+
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+body h1 {
+	margin: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.5em;
+}
+
+body article h1 {
+	font-size: 1.15em;
+}
+
+
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+body p, body address {
+	margin: 3.5% 1%;
+	font-size: 1em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	height: 100%;
+}
+
+
+footer {
+	text-align: Left;
+	font-size: 0.6em;
+	color: rgb(183, 110, 121);
+	margin-top: 4%;
+	border-top: 3px solid rgba(183,110,121,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+
+/*  Tablet layout styles used by devices
+	481px to 768px. Applies to larger devices 
+	unless superceded.*/
+
+
+@media only screen and (min-width: 481px) {
+html, body {
+	font-size: 16px;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 1.55%;
+	padding-right: 1.55%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+header h1 {
+   font-size: 2.2em;
+}
+
+body article h1 {
+   font-size: 1.75em;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+
+article img {
+	float: right;
+	width: 100%;
+	margin: 0% 2% 2% 2%;
+}
+
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+
+footer {
+	font-size: 1.0em;
+}
+}
+
+/* Desktop layout styles.*/
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	margin: 0px auto;
+}
+body {
+	width: 100%;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: rgb(252, 235, 182);
+	
+}
+body h1 {
+	text-align: center;
+	margin-top: 1%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 2.75em;
+	color: rgb(183, 110, 121);
+}
+
+body h2 {
+	margin: 10px 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 2em;
+}
+
+body p, body address {
+	margin: 5px 0px;
+	font-size: 1.5em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	height: 100%;
+}
+article img {
+	float: left;
+	width: 2%;
+	margin: 0% 1% 0% 0%;
+}
+footer {
+	font-size: 2.5em;
+	margin-left: 40px;
+}
+
+}

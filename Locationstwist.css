@@ -2,7 +2,7 @@
 
 /*
    Author: Jeff Scott
-   Date: 2Nov2020
+   Date: 04Oct20202020
 
 */
 
@@ -13,10 +13,12 @@ html {
 	height: 100%;
 	font-size: 12px;
 }
+
 header h1 {
    font-size: 1.0em;
-   color: rgb(183, 110, 121);
+   color: rgb(0, 0, 153);
 }
+
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -28,44 +30,76 @@ body {
 	min-height: 100%;
 	background-color: rgb(252, 235, 182);
 }
-nav img {
-	width: 40%;
+nav {
+	width: 25%;
 	float: left;
-	margin-top: 2%;
-	margin-left: 8%;
+	margin: 6% 2% 0% 0%;
 }
 article {
-	width: 100%;
+	width: 73%;
 	float: left;
 	font-size: 0.8em;
 	text-align: justify;
 }
-
+article img {
+	float: left;
+	width: 2%;
+	margin: 0% 1% 0% 0%;
+}
 a:link {
   color: orange;
 }
 
-
-
-
 a:hover {
   color: hotpink;
 }
+nav ul li {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 1.0em;
+}
 
+nav ul li a {
+	color: #222;
+	background-color: orange;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+
+nav ul li a:hover {
+	background-color: rgb(253,202,0);
+	color: white;
+}
+
+#locations li#locationslink a {
+   color: black;
+   background-color: hotpink;
+}
 
 body h1 {
 	margin: 0;
 	font-family: Brush Script MT, Brush Script Std, cursive;
-	font-size: 1.5em;
+	font-size: 1.0em;
 	color: rgb(183, 110, 121);
 }
 
-body article h1 {
-	font-size: 1.15em;
+h1 {
+   font-size: 1.0em;
+   text-align: left;
+   color: rgb(183, 110, 121);
+}
+h2 {
+	font-size: 1.0em;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: left;
+	color: rgb(183, 110, 121);
 }
 
-
-
+h2 img {
+	float: right;
+	width: 30%;
+	margin-right: 40px;
+}
 header img {
 	float: none;
 	width: 96%;
@@ -78,7 +112,29 @@ body p, body address {
 	font-style: normal;
 	height: 100%;
 }
-
+dl {
+	margin-left: 2%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+dt {
+	display: block;
+	margin: 0;
+	text-indent: 0;
+	font-weight: bold;
+	border-bottom: 3px solid rgba(168, 168, 168,1.00);
+}
+dd {
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+}
+div {
+	margin: 2% 4%;
+}
+p {
+	color: rgb(183, 110, 121);
+	
+}	
 
 footer {
 	text-align: Left;
@@ -109,15 +165,24 @@ body {
 	clear: none;
 	float: none;
 	margin-left: auto;
-	background-color: rgb(252, 235, 182);
 }
 
 header h1 {
-   font-size: 2.2em;
+   font-size: 1.75em;
+   color: rgb(183, 110, 121);
 }
 
 body article h1 {
    font-size: 1.75em;
+   text-align: left;
+   color: rgb(183, 110, 121);
+}
+
+body h1 {
+	margin: 10px 40px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 2.5em;
+	color: rgb(183, 110, 121);
 }
 
 article {
@@ -131,16 +196,38 @@ article img {
 	width: 2%;
 	margin: 0% 1% 0% 0%;
 }
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: 2px solid rgb(0,0,0);
+	border-collapse: collapse;
+	
 
+}
+nav ul li a {
+	margin-bottom: 0;
+}
 nav {
 	display: table;
 	width: 96%;
 	margin: 0 auto;
 	float: none;
 }
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+p {
+	color: rgb(183, 110, 121);
+}	
 
 footer {
-	font-size: 1.0em;
+	font-size: 0.9em;
 }
 }
 
@@ -165,17 +252,27 @@ body {
 	
 }
 body h1 {
-	text-align: center;
-	margin-top: 1%;
+	margin: 10px 40px;
 	font-family: Brush Script MT, Brush Script Std, cursive;
-	font-size: 2.75em;
+	font-size: 3.5em;
 	color: rgb(183, 110, 121);
 }
 
-body h2 {
-	margin: 10px 0px;
-	font-family: Brush Script MT, Brush Script Std, cursive;
+h2 {
+	margin: 10px 40px;
 	font-size: 2em;
+    text-align: left;
+	color: rgb(183, 110, 121);
+}
+nav ul li {
+	font-size: 1.5em;
+
+}
+
+h2 img {
+	float: right;
+	width: 30%;
+	margin-right: 40px;
 }
 
 body p, body address {
@@ -185,6 +282,7 @@ body p, body address {
 	font-style: normal;
 	height: 100%;
 }
+
 article img {
 	float: left;
 	width: 2%;

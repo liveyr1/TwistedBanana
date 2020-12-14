@@ -54,7 +54,7 @@ a:hover {
   color: hotpink;
 }
 nav ul li {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 	font-size: 1.0em;
 }
 
@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 body h1 {
 	margin: 0;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 	font-size: 1.0em;
 	color: rgb(183, 110, 121);
 }
@@ -101,13 +101,13 @@ header img {
 body p, body address {
 	margin: 3.5% 1%;
 	font-size: 1em;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 	font-style: normal;
 	height: 100%;
 }
 dl {
 	margin-left: 2%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 }
 dt {
 	display: block;
@@ -135,7 +135,7 @@ footer {
 	color: rgb(183, 110, 121);
 	margin-top: 4%;
 	border-top: 3px solid rgba(183,110,121,1.00);
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 	clear: both;
 	padding-bottom: 20px;
 }
@@ -239,7 +239,7 @@ body {
 }
 body h1 {
 	margin: 10px 40px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 	font-size: 2.2em;
 	color: rgb(183, 110, 121);
 }
